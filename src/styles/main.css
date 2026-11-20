@@ -518,6 +518,10 @@ body.nav-open .nav-toggle-bars::after {
     background: var(--navy-deep);
   }
 
+  .header-actions {
+    margin-left: auto;
+  }
+
   .nav-toggle {
     display: inline-flex;
     position: relative;
