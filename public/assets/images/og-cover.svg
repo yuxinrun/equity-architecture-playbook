@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="og-title">
+  <title id="og-title">公司架构与股权设计 — Equity Architecture Playbook</title>
+  <rect width="1200" height="630" fill="#18324B"/>
+  <circle cx="960" cy="180" r="220" fill="#20445F"/>
+  <circle cx="1010" cy="450" r="150" fill="#168A82" opacity="0.55"/>
+  <text x="80" y="180" fill="#FFFFFF" font-size="56" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="700" text-anchor="start">公司架构与股权设计</text>
+  <text x="82" y="232" fill="#8FC3D8" font-size="24" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="400" text-anchor="start">Equity Architecture Playbook</text>
+  <text x="82" y="310" fill="#E8EFF2" font-size="30" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="400" text-anchor="start">好的公司架构，让企业走得更远。</text>
+  <path d="M 82 350 L 560 350" fill="none" stroke="#C58A3A" stroke-width="3"/>
+  <text x="82" y="400" fill="#B9C9D8" font-size="20" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="400" text-anchor="start">治理 · 股权 · 控制权 · 激励 · 融资 · 退出</text>
+</svg>

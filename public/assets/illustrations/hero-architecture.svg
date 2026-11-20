@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 600" role="img" aria-labelledby="hero-title hero-desc" preserveAspectRatio="xMidYMid meet">
+  <title id="hero-title">公司架构与股权关系教学示意图</title>
+  <desc id="hero-desc">创始团队、员工、投资人通过持股平台与公司法主体连接，董事会与经理层形成治理与执行关系。图中实线为股权关系，虚线为治理或合同关系。</desc>
+  <rect width="720" height="600" rx="24" fill="#F6F7F8"/>
+  <circle cx="360" cy="300" r="242" fill="#E8EFF2"/>
+  <circle cx="360" cy="300" r="190" fill="none" stroke="#D4E0E6" stroke-dasharray="6 8"/>
+  <g stroke-width="1.8" fill="none">
+    <path d="M360 260 L360 196" stroke="#18324B"/>
+    <path d="M360 196 C260 196 224 174 180 148" stroke="#18324B"/>
+    <path d="M360 196 C460 196 500 174 548 148" stroke="#168A82"/>
+    <path d="M360 340 C300 380 258 414 220 462" stroke="#168A82" stroke-dasharray="6 6"/>
+    <path d="M360 340 C420 380 470 414 510 462" stroke="#C58A3A" stroke-dasharray="6 6"/>
+    <path d="M360 340 L360 430" stroke="#18324B" stroke-dasharray="6 6"/>
+  </g>
+  <g><rect x="288" y="112" width="144" height="84" rx="10" fill="#18324B" stroke="#18324B" stroke-width="1.5"/><text x="360" y="159.66666666666666" fill="#FFFFFF" font-size="17" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="600" text-anchor="middle">公司法主体</text></g>
+  <g><rect x="88" y="104" width="148" height="72" rx="10" fill="#FFFFFF" stroke="#18324B" stroke-width="1.5"/><text x="162" y="145.33333333333334" fill="#202733" font-size="16" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="600" text-anchor="middle">创始团队</text></g>
+  <g><rect x="482" y="104" width="148" height="72" rx="10" fill="#FFFFFF" stroke="#168A82" stroke-width="1.5"/><text x="556" y="145.33333333333334" fill="#202733" font-size="16" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="600" text-anchor="middle">投资人</text></g>
+  <g><rect x="112" y="444" width="142" height="72" rx="10" fill="#FFFFFF" stroke="#168A82" stroke-width="1.5"/><text x="183" y="485.3333333333333" fill="#202733" font-size="16" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="600" text-anchor="middle">员工激励池</text></g>
+  <g><rect x="452" y="444" width="142" height="72" rx="10" fill="#FFFFFF" stroke="#C58A3A" stroke-width="1.5"/><text x="523" y="485.3333333333333" fill="#202733" font-size="16" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="600" text-anchor="middle">业务与现金流</text></g>
+  <g><rect x="298" y="428" width="124" height="72" rx="10" fill="#FFFFFF" stroke="#18324B" stroke-width="1.5"/><text x="360" y="468.3333333333333" fill="#202733" font-size="13" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="600" text-anchor="middle">董事会 / 经理层</text></g>
+  <text x="360" y="82" fill="#657080" font-size="13" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="400" text-anchor="middle">股权关系 / 治理关系 / 业务关系</text>
+  <path d="M 40 552 L 78 552" fill="none" stroke="#18324B" stroke-width="1.4"/>
+  <text x="86" y="557" fill="#657080" font-size="12" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="400" text-anchor="start">股权线</text>
+  <path d="M 170 552 L 208 552" fill="none" stroke="#168A82" stroke-width="1.4" stroke-dasharray="6 6"/>
+  <text x="216" y="557" fill="#657080" font-size="12" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="400" text-anchor="start">治理 / 合同线</text>
+  <path d="M 350 552 L 388 552" fill="none" stroke="#C58A3A" stroke-width="1.4" stroke-dasharray="3 5"/>
+  <text x="396" y="557" fill="#657080" font-size="12" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="400" text-anchor="start">业务 / 现金流</text>
+</svg>

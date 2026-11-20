@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+  <title id="title">期权归属时间线</title>
+  <desc id="desc">四年归属、一年 Cliff 的时间示意。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8FA3B3"/></marker>
+  </defs>
+  <rect width="960" height="560" fill="#F6F7F8"/>
+  <rect x="20" y="20" width="920" height="520" rx="14" fill="#FFFFFF" stroke="#E2E7EB"/>
+  <text x="40" y="58" fill="#18324B" font-size="22" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="700" text-anchor="start">期权归属时间线</text>
+  <path d="M 40 72 L 920 72" fill="none" stroke="#E2E7EB" stroke-width="1.4"/>
+  
+  <path d="M 120 300 L 840 300" fill="none" stroke="#8FA3B3" stroke-width="3"/>
+  <g><path d="M 120 288 L 120 312" fill="none" stroke="#18324B" stroke-width="1.4"/><text x="120" y="344" fill="#657080" font-size="13" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="400" text-anchor="middle">第 0 年</text></g><g><path d="M 300 288 L 300 312" fill="none" stroke="#18324B" stroke-width="1.4"/><text x="300" y="344" fill="#657080" font-size="13" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="400" text-anchor="middle">第 1 年</text></g><g><path d="M 480 288 L 480 312" fill="none" stroke="#18324B" stroke-width="1.4"/><text x="480" y="344" fill="#657080" font-size="13" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="400" text-anchor="middle">第 2 年</text></g><g><path d="M 660 288 L 660 312" fill="none" stroke="#18324B" stroke-width="1.4"/><text x="660" y="344" fill="#657080" font-size="13" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="400" text-anchor="middle">第 3 年</text></g><g><path d="M 840 288 L 840 312" fill="none" stroke="#18324B" stroke-width="1.4"/><text x="840" y="344" fill="#657080" font-size="13" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="400" text-anchor="middle">第 4 年</text></g>
+  <g><rect x="120" y="190" width="180" height="70" rx="10" fill="#E8EFF2" stroke="#8FA3B3" stroke-width="1.5"/><text x="210" y="229.66666666666666" fill="#202733" font-size="14" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="600" text-anchor="middle">Cliff：0%</text></g>
+  <g><rect x="300" y="190" width="180" height="70" rx="10" fill="#168A82" stroke="#168A82" stroke-width="1.5"/><text x="390" y="230.33333333333334" fill="#FFFFFF" font-size="16" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="600" text-anchor="middle">25%</text></g>
+  <g><rect x="480" y="190" width="180" height="70" rx="10" fill="#168A82" stroke="#168A82" stroke-width="1.5"/><text x="570" y="230.33333333333334" fill="#FFFFFF" font-size="16" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="600" text-anchor="middle">50%</text></g>
+  <g><rect x="660" y="190" width="180" height="70" rx="10" fill="#168A82" stroke="#168A82" stroke-width="1.5"/><text x="750" y="229.66666666666666" fill="#FFFFFF" font-size="14" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="600" text-anchor="middle">75% → 100%</text></g>
+  <text x="480" y="430" fill="#657080" font-size="15" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="400" text-anchor="middle">归属模型不等于可行权数量、税后收益或法律权利。</text>
+
+  
+  <text x="920" y="526" fill="#657080" font-size="11" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="400" text-anchor="end">示意图 / 教学模型</text>
+</svg>

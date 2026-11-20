@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.cache/
+.playwright-cli/
+.DS_Store
+Thumbs.db
+*.log

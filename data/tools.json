@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "founder-equity-workshop",
+    "title": "创始人股权分配讨论器",
+    "icon": "users",
+    "description": "添加创始人，填写角色、投入时间、已投入资本和核心贡献，生成可编辑的讨论矩阵。不自动给出「公平」比例，由团队手动调整。",
+    "tags": ["创始人", "分股", "讨论"],
+    "script": "/assets/js/tools/founder-equity.js",
+    "howToUse": "各项权重与比例由用户在矩阵中手动设置。工具提供默认权重仅作为讨论起点，不代表任何权威判断。",
+    "limitations": "不评估无形资产、未来贡献的量化等价关系。不输出法律分配建议。"
+  },
+  {
+    "slug": "dilution-calculator",
+    "title": "股权稀释计算器",
+    "icon": "chart",
+    "description": "输入当前股东比例、投前估值、新增投资金额与期权池参数，计算投前、投后与稀释后持股比例。",
+    "tags": ["稀释", "融资", "期权池"],
+    "script": "/assets/js/tools/dilution-calc.js",
+    "howToUse": "假设按普通股等比例增资的简化模型。复杂优先权、可转债、分层证券和特殊条款不纳入简单计算结果。",
+    "limitations": "未包含清算优先权、反稀释调整、优先回报和员工认股税负等因素。"
+  },
+  {
+    "slug": "pre-post-money",
+    "title": "投前投后估值计算器",
+    "icon": "scale",
+    "description": "输入投前估值和融资金额，计算投后估值及投资人理论持股比例。明确不包含特殊条款的影响。",
+    "tags": ["估值", "融资", "投前投后"],
+    "script": "/assets/js/tools/pre-post-money.js",
+    "howToUse": "输入投前估值与投资金额，立即得出投后估值与投资人理论持股比例。所有计算均为简化模型。",
+    "limitations": "不包含分红权、附加条款、分阶段交割、员工期权池变化等复杂因素。"
+  },
+  {
+    "slug": "vesting-timeline",
+    "title": "归属时间线演示器",
+    "icon": "clock",
+    "description": "设置授予数量、归属期限、Cliff 期限和归属频率，生成随时间推移的归属进度表与柱状图。",
+    "tags": ["Vesting", "期权", "归属"],
+    "script": "/assets/js/tools/vesting-timeline.js",
+    "howToUse": "Cliff 期限表示在此之前零归属；到达后一次性归属 Cliff 期间的全部份额；之后按指定频率分期归属。",
+    "limitations": "归属模型不等于实际可行权数量、税后收益或法律权利。未体现离职处理、加速条款和公司回购安排。"
+  },
+  {
+    "slug": "cap-table-graph",
+    "title": "股权结构图生成器",
+    "icon": "layers",
+    "description": "添加股东、持股平台与公司实体，输入持股比例，自动生成可导出、可打印的 SVG 结构图。所有数据保留在本地。",
+    "tags": ["Cap Table", "结构图", "SVG"],
+    "script": "/assets/js/tools/cap-table-graph.js",
+    "howToUse": "通过左侧面板添加节点与边。右键编辑或删除。点击「导出 SVG」保存为文件。",
+    "limitations": "为简化示意图工具，不支持多层嵌套递归和自动布局优化。"
+  },
+  {
+    "slug": "governance-matrix",
+    "title": "控制权与治理矩阵",
+    "icon": "compass",
+    "description": "按股东会、董事会、经理层和特定股东四类角色，对比在信息权、提名权、表决权、审批权等事项上的安排。可编辑导出。",
+    "tags": ["治理", "矩阵", "控制权"],
+    "script": "/assets/js/tools/governance-matrix.js",
+    "howToUse": "矩阵中的√/×由用户自行填写。工具提供默认标注仅供讨论参照，不构成治理建议。",
+    "limitations": "不覆盖特定法域下的法定表决要求与章程强制规则。"
+  },
+  {
+    "slug": "structure-checklist",
+    "title": "公司架构检查表",
+    "icon": "doc",
+    "description": "根据业务阶段、股东人数、激励需求、融资计划、跨境业务与风险隔离需求，提示应进一步研究的问题，不给具体架构结论。",
+    "tags": ["检查表", "架构", "清单"],
+    "script": "/assets/js/tools/structure-checklist.js",
+    "howToUse": "逐项勾选后查看需要进一步核查的问题列表。所有问题均为研究方向提示，不自动生成法律架构方案。",
+    "limitations": "不为具体企业推荐公司类型、注册地或架构方案。"
+  },
+  {
+    "slug": "equity-health-check",
+    "title": "股权设计体检清单",
+    "icon": "shield",
+    "description": "逐项检查股东身份、出资、表决权、信息权、股权转让、离职处理、退出机制、僵局应对和文件一致性的明确程度。",
+    "tags": ["体检", "清单", "股权"],
+    "script": "/assets/js/tools/equity-health-check.js",
+    "howToUse": "逐项勾选已明确的条目，查看未明确的缺口列表。结果仅作为团队讨论的起点，不是合规审查报告。",
+    "limitations": "不评估法律风险或提供修正方案。"
+  }
+]

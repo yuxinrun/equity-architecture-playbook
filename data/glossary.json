@@ -1,0 +1,182 @@
+[
+  {
+    "id": "g01",
+    "term": "注册资本",
+    "en": "Registered Capital",
+    "letter": "Z",
+    "definition": "公司在登记机关登记的资本数额。不同法域对认缴、实缴、出资期限与责任后果的制度差异很大，不能只看数字。",
+    "misuse": "把注册资本等同于公司实际可支配现金，或认为注册资本越高越安全。",
+    "related": "/equity-design/registered-capital-and-contribution/"
+  },
+  {
+    "id": "g02",
+    "term": "股权比例",
+    "en": "Shareholding Percentage",
+    "letter": "G",
+    "definition": "股东在法律所有权层面持有权益的比例。它不必然等同于表决权、分红权或控制权。",
+    "misuse": "把 51% 或 67% 当成所有公司、所有事项上的绝对控制权。",
+    "related": "/equity-design/equity-vs-voting-vs-dividend-rights/"
+  },
+  {
+    "id": "g03",
+    "term": "表决权",
+    "en": "Voting Rights",
+    "letter": "B",
+    "definition": "股东就股东会决议事项表达同意或反对的权利。其计算口径、特别决议门槛和保留事项受法域、章程与协议共同影响。",
+    "misuse": "把出资比例直接当作表决权比例，忽略章程与协议安排。",
+    "related": "/control-rights/statutory-vs-agreement-boundaries/"
+  },
+  {
+    "id": "g04",
+    "term": "分红权",
+    "en": "Dividend Rights",
+    "letter": "F",
+    "definition": "股东按约定或法定规则请求分配利润的权利。是否分配、何时分配还取决于可分配利润、决议与章程安排。",
+    "misuse": "把分红权理解成随时可提取的公司现金。",
+    "related": "/equity-design/equity-vs-voting-vs-dividend-rights/"
+  },
+  {
+    "id": "g05",
+    "term": "剩余财产分配权",
+    "en": "Liquidation Preference / Residual Claim",
+    "letter": "S",
+    "definition": "在公司清算并清偿债务后，对剩余财产请求分配的权利。优先权安排可能改变不同类别股份的实际受偿顺序。",
+    "misuse": "把清算后的剩余分配与正常经营中的分红混为一谈。",
+    "related": "/fundraising/liquidation-preference-basics/"
+  },
+  {
+    "id": "g06",
+    "term": "期权",
+    "en": "Stock Option",
+    "letter": "Q",
+    "definition": "在未来按约定条件购买股权或股份的权利。授予不等于行权，行权也不等于获得流动性。",
+    "misuse": "把期权数量直接换算为当前现金价值。",
+    "related": "/equity-incentives/incentive-tools-comparison/"
+  },
+  {
+    "id": "g07",
+    "term": "限制性股权",
+    "en": "Restricted Stock",
+    "letter": "X",
+    "definition": "附带归属、转让限制或回购条件的股权安排。其核心是权利取得与持续服务、绩效或时间条件相联系。",
+    "misuse": "忽略未归属部分的回购与转让限制。",
+    "related": "/equity-incentives/incentive-tools-comparison/"
+  },
+  {
+    "id": "g08",
+    "term": "虚拟股",
+    "en": "Phantom Shares",
+    "letter": "X",
+    "definition": "以现金或账面收益为结算基础的激励工具，通常不直接登记为法律意义上的股权。",
+    "misuse": "把虚拟股描述为真实股权，或忽略其税务与现金流影响。",
+    "related": "/equity-incentives/incentive-tools-comparison/"
+  },
+  {
+    "id": "g09",
+    "term": "归属",
+    "en": "Vesting",
+    "letter": "G",
+    "definition": "激励权益或创始人股权随时间、服务或绩效条件逐步变为可保留安排的过程。",
+    "misuse": "把归属等同于可行权、可售出或已实现收益。",
+    "related": "/founder-equity/founder-vesting-basics/"
+  },
+  {
+    "id": "g10",
+    "term": "Cliff",
+    "en": "Cliff",
+    "letter": "C",
+    "definition": "归属起点前的等待期；未达到该节点时通常不归属任何份额，达到时按约定一次性归属一段。",
+    "misuse": "把 Cliff 当作锁定期或离职竞业期。",
+    "related": "/equity-incentives/cliff-and-vesting-schedule/"
+  },
+  {
+    "id": "g11",
+    "term": "Cap Table",
+    "en": "Capitalization Table",
+    "letter": "C",
+    "definition": "记录公司各类证券、持有人、数量与比例的股权结构表。需区分实际发行口径与完全稀释口径。",
+    "misuse": "只看已发行股份，忽略期权池与未行权工具。",
+    "related": "/fundraising/fully-diluted-cap-table/"
+  },
+  {
+    "id": "g12",
+    "term": "完全稀释",
+    "en": "Fully Diluted",
+    "letter": "W",
+    "definition": "假设所有已授予期权、认股权证、可转换证券等均转换后的股本计算口径。",
+    "misuse": "把完全稀释比例当成当前登记持股比例。",
+    "related": "/fundraising/fully-diluted-cap-table/"
+  },
+  {
+    "id": "g13",
+    "term": "投前估值",
+    "en": "Pre-money Valuation",
+    "letter": "T",
+    "definition": "在本次新增投资计入之前，对公司价值的约定口径。它与投资额共同决定投后估值与投资人理论比例。",
+    "misuse": "把投前估值当作公司资产的客观公允价值。",
+    "related": "/fundraising/pre-post-money-basics/"
+  },
+  {
+    "id": "g14",
+    "term": "投后估值",
+    "en": "Post-money Valuation",
+    "letter": "T",
+    "definition": "投前估值与新增投资金额之和，是简化股权计算中的分母。特殊条款不自动反映在该数字里。",
+    "misuse": "用投后估值直接推算创始团队的实际可支配现金。",
+    "related": "/fundraising/pre-post-money-basics/"
+  },
+  {
+    "id": "g15",
+    "term": "清算优先权",
+    "en": "Liquidation Preference",
+    "letter": "Q",
+    "definition": "特定股份在退出分配时优先于普通股取得约定金额或倍数的条款安排。具体效果高度依赖条款文本。",
+    "misuse": "把优先权简单描述为“投资人不会亏”。",
+    "related": "/fundraising/liquidation-preference-basics/"
+  },
+  {
+    "id": "g16",
+    "term": "反稀释",
+    "en": "Anti-dilution",
+    "letter": "F",
+    "definition": "在后续低价融资等触发事件发生时，按约定调整转换价格或补偿股份的保护机制。",
+    "misuse": "认为反稀释条款能完全避免经济稀释。",
+    "related": "/fundraising/anti-dilution-basics/"
+  },
+  {
+    "id": "g17",
+    "term": "保留事项",
+    "en": "Reserved Matters",
+    "letter": "B",
+    "definition": "需要特定机构或特定股东同意才能实施的事项清单，是控制权设计的核心工具之一。",
+    "misuse": "把保留事项写成无限宽泛的否决权。",
+    "related": "/control-rights/reserved-matters-and-veto/"
+  },
+  {
+    "id": "g18",
+    "term": "实际控制人",
+    "en": "Actual Controller",
+    "letter": "S",
+    "definition": "虽未必直接持有最高比例股权，但通过投资关系、协议或其他安排能够实际支配公司行为的主体。认定标准依具体法域和监管语境而异。",
+    "misuse": "只按工商登记持股比例判断实际控制人。",
+    "related": "/control-rights/actual-controller-basics/"
+  },
+  {
+    "id": "g19",
+    "term": "持股平台",
+    "en": "Holding Vehicle",
+    "letter": "C",
+    "definition": "用于集中持有股权的主体，如有限合伙企业或公司制平台。其治理、税务与监管后果需按设立地规则单独分析。",
+    "misuse": "把持股平台视为只解决“持股方便”的技术工具。",
+    "related": "/holding-structure/direct-vs-indirect-holding/"
+  },
+  {
+    "id": "g20",
+    "term": "优先购买权",
+    "en": "Right of First Refusal",
+    "letter": "Y",
+    "definition": "股东向外转让股权时，其他股东或公司在同等条件下优先受让的权利。行使程序与例外须结合法域和章程判断。",
+    "misuse": "把优先购买权理解成可以任意阻止所有转让。",
+    "related": "/shareholder-agreement/transfer-restrictions-and-rofr/"
+  }
+]

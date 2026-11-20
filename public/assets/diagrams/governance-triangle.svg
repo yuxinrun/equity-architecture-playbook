@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+  <title id="title">股东会 — 董事会 — 经理层</title>
+  <desc id="desc">所有权、决策与执行形成相互衔接但不等同的治理链。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8FA3B3"/></marker>
+  </defs>
+  <rect width="960" height="560" fill="#F6F7F8"/>
+  <rect x="20" y="20" width="920" height="520" rx="14" fill="#FFFFFF" stroke="#E2E7EB"/>
+  <text x="40" y="58" fill="#18324B" font-size="22" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="700" text-anchor="start">股东会 — 董事会 — 经理层</text>
+  <path d="M 40 72 L 920 72" fill="none" stroke="#E2E7EB" stroke-width="1.4"/>
+  
+  <g><rect x="330" y="100" width="300" height="84" rx="10" fill="#18324B" stroke="#18324B" stroke-width="1.5"/><text x="480" y="148.66666666666666" fill="#FFFFFF" font-size="20" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="600" text-anchor="middle">股东会</text></g>
+  <path d="M 480 184 L 480 240" fill="none" stroke="#8FA3B3" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <g><rect x="330" y="244" width="300" height="84" rx="10" fill="#168A82" stroke="#168A82" stroke-width="1.5"/><text x="480" y="292.6666666666667" fill="#FFFFFF" font-size="20" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="600" text-anchor="middle">董事会</text></g>
+  <path d="M 480 328 L 480 384" fill="none" stroke="#8FA3B3" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <g><rect x="330" y="388" width="300" height="84" rx="10" fill="#4C7EA8" stroke="#4C7EA8" stroke-width="1.5"/><text x="480" y="436.6666666666667" fill="#FFFFFF" font-size="20" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="600" text-anchor="middle">经理层</text></g>
+  <text x="180" y="286" fill="#18324B" font-size="15" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="600" text-anchor="middle">重大事项</text>
+  <text x="180" y="312" fill="#657080" font-size="14" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="400" text-anchor="middle">选举与授权</text>
+  <text x="690" y="286" fill="#18324B" font-size="15" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="600" text-anchor="middle">经营决策</text>
+  <text x="690" y="312" fill="#657080" font-size="14" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="400" text-anchor="middle">聘任与监督</text>
+
+  
+  <text x="920" y="526" fill="#657080" font-size="11" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',sans-serif" font-weight="400" text-anchor="end">示意图 / 教学模型</text>
+</svg>
