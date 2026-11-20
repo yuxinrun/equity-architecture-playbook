@@ -8,13 +8,19 @@ function initNav() {
 
   const setOpen = (open) => {
     document.body.classList.toggle('nav-open', open);
-    document.body.classList.toggle('no-scroll', open);
+    if (open) {
+      document.body.classList.add('no-scroll');
+      window.dispatchEvent(new Event('eap:close-search'));
+    } else if (document.querySelector('[data-search-overlay]')?.hidden !== false) {
+      document.body.classList.remove('no-scroll');
+    }
     toggle.setAttribute('aria-expanded', String(open));
     toggle.setAttribute('aria-label', open ? '关闭导航菜单' : '打开导航菜单');
     if (scrim) scrim.hidden = !open;
   };
 
   toggle.addEventListener('click', () => setOpen(!document.body.classList.contains('nav-open')));
+  window.addEventListener('eap:close-nav', () => setOpen(false));
   if (scrim) scrim.addEventListener('click', () => setOpen(false));
   nav.addEventListener('click', (event) => {
     if (event.target.closest('a')) setOpen(false);

@@ -98,6 +98,7 @@ export function initSearchDialog() {
   let timer = null;
 
   const open = () => {
+    window.dispatchEvent(new Event('eap:close-nav'));
     lastFocus = document.activeElement;
     overlay.hidden = false;
     document.body.classList.add('no-scroll');
@@ -110,9 +111,13 @@ export function initSearchDialog() {
 
   const close = () => {
     overlay.hidden = true;
-    document.body.classList.remove('no-scroll');
+    if (!document.body.classList.contains('nav-open')) {
+      document.body.classList.remove('no-scroll');
+    }
     if (lastFocus && typeof lastFocus.focus === 'function') lastFocus.focus();
   };
+
+  window.addEventListener('eap:close-search', close);
 
   const render = (query) => {
     if (!query.trim()) {
